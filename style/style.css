@@ -1,0 +1,15 @@
+@import url(reset/reset.css);
+@import url(components/variable.css);
+@import url(components/color.css);
+@import url(components/typography.css);
+@import url(components/layout.css);
+@import url(components/button.css);
+@import url(components/input.css);
+
+* {
+  background-color: var(--color-bg);
+  font-family: var(--font-primary);
+  font-weight: var(--regular);
+  color: var(--color-text);
+}
+
