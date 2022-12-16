@@ -1,0 +1,130 @@
+/* skills */
+.section-body-1 {
+  text-align: center;
+  background-color: var(--gray-100);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+
+.card-skill {
+  background-color: var(--gray-200);
+  border-radius: 10px;
+
+  /* animate js */
+  opacity: 0;
+  transform: scale(0.9) translateY(100px);
+	transition: 0.7s ease-in-out all;
+}
+
+.show-skill {
+  opacity: 1;
+	transform: scale(1) translateX(0);
+}
+
+.card-skill:hover {
+  transition: 0.1s linear;
+  transform: scale(1.05);
+  background-color: var(--gray-300);
+}
+
+.card-skill-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-skill img{
+  padding-top: 1.3rem;
+  width: 150px;
+}
+
+/* projects */
+.section-body-2 {
+  text-align: center;
+  background-color: var(--gray-50);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card-project {
+  background-color: var(--gray-100);
+  border-radius: 10px;
+  padding-bottom: 1rem;
+
+  /* animate js */
+  opacity: 0;
+  transform: scale(0.9) translateX(-100px);
+	transition: 0.7s ease-in-out all;
+}
+
+.show-project {
+  opacity: 1;
+	transform: scale(1) translateX(0);
+}
+
+.card-project a{
+  text-decoration: none;
+  color: var(--color-info);
+}
+
+.card-project:hover {
+  transition: 0.1s linear;
+  transform: scale(1.01);
+  background-color: var(--gray-200);
+}
+
+.card-project img{
+  padding-top: 1.3rem;
+  max-width: 70vw;
+}
+
+.layout-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.card-project-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* contact me */
+.section-body-3 {
+  text-align: center;
+  background-color: var(--gray-100);
+}
+
+.form-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.form-layout input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: inherit;
+}
+
+.form-layout input:hover {
+  transform: scale(1.05);
+}
+
+.form-layout input:focus {
+  border: none;
+}

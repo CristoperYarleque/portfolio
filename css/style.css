@@ -7,9 +7,9 @@
 @import url(components/input.css);
 
 * {
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
   font-family: var(--font-primary);
   font-weight: var(--regular);
-  color: var(--color-text);
+  /* color: var(--color-text); */
 }
 

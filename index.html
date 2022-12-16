@@ -5,7 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages/header.css" />
+    <link rel="stylesheet" href="css/pages/body.css" />
+    <link rel="stylesheet" href="css/pages/footer.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER START -->
+    <header class="header-style">
+      <div class="container-lg">
+        <div class="header">
+          <a href="/index.html" class="heading-md semibold">Portfolio</a>
+
+          <!-- MENU START -->
+          <div class="menu-desktop">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="#skills" class="text semibold">Skills</a></li>
+                <li><a href="#projects" class="text semibold">Projects</a></li>
+                <li>
+                  <a href="#contact" class="text semibold">Contact Me</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- MENU END -->
+          <img class="menu" src="img/icons/menu-line.svg" alt="menu" />
+        </div>
+      </div>
+      <!-- MENU MOBILE START -->
+      <div class="menu-mobile-hidden">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#skills" class="text semibold">Skills</a></li>
+            <li><a href="#projects" class="text semibold">Projects</a></li>
+            <li>
+              <a href="#contact" class="text semibold">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- MENU MOBILE END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HERO START -->
+    <section class="hero">
+      <div class="container-md layout-hero">
+        <h2 class="heading-lg regular white">
+          I'am
+          <span class="heading-lg info semibold">Cristoper Yarleque</span>
+          developer web Full-Stack.
+        </h2>
+        <p class="text-sm yellow-400 semibold">
+          IF IT CAN BE IMAGINED IT CAN BE PROGRAMMED
+        </p>
+      </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- BODY START -->
+    <main class="body-main">
+      <!-- SECTION BODY SKILLS -->
+      <section id="skills" class="section-body-1">
+        <div class="container-lg section padded">
+          <h2 class="heading-lg info semibold">Skills</h2>
+          <div class="skills">
+            <!-- DOM -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION BODY PROJECTS -->
+      <section id="projects" class="section-body-2">
+        <div class="container-lg section padded">
+          <h2 class="heading-lg info semibold">Projects</h2>
+          <div class="projects">
+            <!-- DOM -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT ME -->
+      <div data-include="html/contact.html"></div>
+    </main>
+    <!-- BODY END -->
+
+    <!-- FOOTER START -->
+    <div data-include="html/footer.html"></div>
+    <!-- FOOTER END -->
+
+    <!-- BUTTON SCROLL -->
+    <div class="button-scroll">
+      <!-- DOM -->
+    </div>
+
+    <!-- scripts -->
+    <script src="js/include-html.js"></script>
+    <script src="js/dom-animate.js" type="module"></script>
+    <script src="js/scroll-up.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
 </html>
